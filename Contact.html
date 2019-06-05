@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>ContactUs</title>   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        #navbar {
+       width:100%;
+       overflow:auto;
+       padding:10px;
+       background:lightseagreen;
+       top:0;
+       margin:0;
+ }
+   #linkref {
+      color:white;
+      font-size:20px;
+      padding-left:20px;
+      text-decoration-line: none;
+      font-family:serif;
+   }
+   #linkedin {
+       float:right;
+       color:white;
+       padding-right:30px;
+       font-size:20px;
+       font-family:serif;
+       text-decoration-line: none;
+   }
+   #wrap {
+       padding-left:500px;
+       padding-top:100px;
+       font-size:20px;
+       color:brown;
+       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+   .b1 {
+       background-color:blue;
+       font-size: 20px;
+       color:white;
+   }
+   a:hover {
+       background-color: lightgray;
+   }
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+            <div id="navbar">
+                <a href="https://twitter.com/home" id="linkref">Kasarla Srilatha</a>
+                <a href="https://github.com/" id="linkref"><i class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/feed/" id="linkref"><i class="fa fa-linkedin"></i></a>
+                <a href="https://medium.com/" id="linkref"><i class="fa fa-medium"></i></a>
+                <a class="active" href="contact.html" id="linkedin">ContactUs</a>
+                <a href="certificate.html" id="linkedin">Certifications</a>
+                <a  href="Task.html" id="linkedin">Home</a>
+                
+            </div>
+        <div id="wrap">
+        <form>
+            <h2>Contact Us Here</h2>
+            First Name:<br>
+            <input type="text" placeholder="firstname" required><br>
+            Last Name:<br>
+            <input type="text" placeholder="lastname" required><br>
+            E-mail:<br>
+            <input type="email" placeholder="email" required><br>
+            ContactNo:<br>
+            <input type="text" placeholder="91..." required><br>
+            <br><input type="button" class= "button b1" onclick="alert('Successfully logged in')" value="SUBMIT"></button>   </form>
+        </div>
+
+    </body>
+</html>
